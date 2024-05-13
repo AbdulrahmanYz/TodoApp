@@ -1,0 +1,34 @@
+To_Do Web Uygulamasının dokümantasyonu
+Giriş
+To_Do Web Uygulaması, kullanıcıların görevlerini ve yapılacaklar listelerini etkili bir şekilde yönetmelerine yardımcı olmak için tasarlanmış basit bir araçtır. Kullanıcılara, görev ekleme, düzenleme ve silme gibi temel işlevlerin yanı sıra, görevlerin tamamlanma durumuna göre filtrelenmesini sağlayan özellikler sunar. Uygulama, HTML, CSS ve JavaScript kullanılarak DOM manipülasyonuyla oluşturulmuştur.
+Özellikler
+Görev Ekleme: Kullanıcılar, görev açıklamalarını giriş alanına yazarak ve "Görev Ekle" düğmesine tıklayarak yeni görevler ekleyebilirler.
+Görev Düzenleme: Kullanıcılar, görev açıklamalarını doğrudan tıklayarak düzenleyebilirler.
+Görev Silme: Kullanıcılar, her görevin yanındaki silme düğmesine tıklayarak görevleri silebilirler.
+Görevi Tamamlandı Olarak İşaretleme: Kullanıcılar, görev açıklamalarına tıklayarak görevleri tamamlanmış olarak işaretleyebilirler. Tamamlanan görevler, çizgiyle çizilmiş bir stile sahiptir.
+Görevleri Filtreleme: Kullanıcılar, tamamlanma durumlarına göre görevleri filtrelemek için sağlanan filtre düğmelerini ("All", "Active", "completed") kullanabilirler.
+Tamamlanan Görevleri Temizleme: Kullanıcılar, tüm tamamlanan görevleri kaldırmak için "Tamamlananları Temizle" düğmesine tıklayabilirler.
+Kullanılan Teknolojiler
+HTML5: Web sayfasının yapısını oluşturmak için kullanılan işaretleme dili.
+CSS3: Web sayfasının görünümünü tasarlamak için kullanılan stil dili.
+JavaScript: Web sayfasına etkileşim eklemek için kullanılan programlama dili.
+DOM Manipülasyonu: Web sayfasının içeriğini ve yapısını dinamik olarak güncelleme tekniği.
+Proje Kurulumu
+Kurulum: Belirli bir kurulum gerekmez. Projeyi bir metin düzenleyicide veya bir IDE'de açın.
+Klasör Yapısı: Proje dosyaları, HTML, CSS ve JavaScript için tasarlanmıştır.
+Kullanım
+Web tarayıcısında index.html dosyasını açın.
+Görev açıklamalarını giriş alanına yazın ve yeni görevler eklemek için "Görev Ekle" düğmesine tıklayın.
+Görevleri tamamlanan olarak işaretlemek için görev açıklamalarına tıklayın.
+Görevleri silmek için her görevin yanındaki silme düğmesine tıklayın.
+Görevleri tamamlanma durumuna göre filtrelemek için sağlanan filtre düğmelerini ("All", "Active", "completed") kullanın.
+Tüm tamamlanan görevleri kaldırmak için "Clear completed" düğmesine tıklayın.
+Ek Fonksiyonlar
+Zamanlayıcı: Bir görev eklenirken zamanı kaydedin ve görevle birlikte gösterin.
+Yerel Depolama: Görevleri tarayıcının yerel depolama alanında saklayarak oturumlar arası sürekliliği sağlayın.
+Referanslar
+MDN Web Docs 
+W3Schools
+Hazırlayan:
+Abdulrahman Alissa Alzokimi
+öğr.No:230229015

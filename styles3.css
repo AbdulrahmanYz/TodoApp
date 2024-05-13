@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #cadfcc;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #a5e1b9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    width: calc(100% - 80px);
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 8px 16px;
+    margin-bottom: 10px;
+    background-color: #21ab31;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    padding: 4px;
+}
+
+li {
+    padding: 8px;
+    margin-bottom: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #2032f9;
+}
+
+.delete {
+    background-color:rgb(207, 22, 22);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+#filterOptions {
+    margin-top: 15px;
+}
+
+#filterOptions button {
+    margin-right: 10px;
+    background-color: #2642e0;
+}
+
+#filterOptions button:hover {
+    background-color: #262de0;
+}
+
+#clearBtn {
+    background-color: red;
+}
+
+#clearBtn:hover {
+    background-color: #c82333;
+}
